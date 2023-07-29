@@ -26,8 +26,9 @@
 // create  valid constant  variable
 export const valid_username ='KusumPandit';
  export const valid_email = 'abc@gmail.com';
-export const valid_password  = 'Nepal@123'
+export const valid_password  = 'Nepal@123';
 // create invalid variable
 export const invalid_username ='123444';
  export const invalid_email = 'abcgmail.com';
-export const invalid_password  = 'Nepal@233333'
+ export const invalid_password  = 'Nepal@233333';
+ export const fakedata='1234';
