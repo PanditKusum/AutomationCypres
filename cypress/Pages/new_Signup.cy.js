@@ -9,6 +9,7 @@ export class signuptest {
     assert_btn= '.btn';
     empty_assertion_error='.error-messages > li'
     empty_username_error='.error-messages > li'
+    invalid_email ='.error-messages > li'
   
     navigate(url) {
       cy.visit(url);
@@ -43,8 +44,7 @@ export class signuptest {
         cy.get(this.empty_username_error).should('contain', "username can't be blank");
       }
 
-      }
-    
+}
 
     
 
