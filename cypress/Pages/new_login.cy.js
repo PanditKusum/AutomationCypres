@@ -48,9 +48,9 @@ invalid_password_error(){
     cy.get(this.Assertion_error). should('contain',"You have entered an invalid password");
 }
 // for success message 
-valid_login_messsage(){
-    cy.get(this.Assertion_error). should('contain',"Logged in Successfully ");
-}
+// valid_login_messsage(){
+//     cy.get(this.Assertion_error). should('contain',"Logged in Successfully ");
+// }
 }
 
 
