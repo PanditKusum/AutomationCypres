@@ -28,7 +28,7 @@ enterPassword(password){
     }
     // error message for all empty field
    errorAllEmptyField(){
-    cy.get(this.Assertion_error).should('contain',"All Field are required");
+    cy.get(this.Assertion_error).should('contain',"email can't be blank");
 }
 // error message for empty email
 errorEmailEmptyField(){
