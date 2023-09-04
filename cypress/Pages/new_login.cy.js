@@ -8,15 +8,9 @@ export class logintest{
      login_btn = '.btn'
       Assertion_error ='.error-messages > li'
       
-    
-     
+      // method used on test scenarios[ like click type and asssertions error]
 
 
-    // method used on test scenarios[ like click type and asssertions error]
-
-navigate(url){
-    cy.visit(url);
-}
 enterEmail(email){
     cy.get(this.login_email).type(email);
 }
