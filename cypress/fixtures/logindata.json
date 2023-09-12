@@ -1,0 +1,15 @@
+{
+    "email":"panditkusum2051@gmail.com",
+    "password": "Test@123",
+
+"invalid_email":"panditkusum gmail.com",
+"invalid_email1":"panditkusum gmail",
+"invalid_email2":"wxyz@gmail.com",
+"invalid_email3":"abc123" ,
+"invalid_password" : "karma@123",
+
+"invalid_password_error":"invalid password data"
+}
+    
+   
+
